@@ -1,0 +1,57 @@
+.bannerBackground {
+      width: 100%;
+      height: 600px;
+
+      background-image: url("../../img/CodeBanner1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      background-attachment: fixed;
+}
+
+.bannerContainer {
+      width: 100%;
+      height: 100%;
+      padding-left: 80px;
+      padding-bottom: 80px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      background-color: rgba(0, 0, 0, 0.220);
+      font-family: "Roboto", sans-serif;
+}
+
+.banner-titulo {
+      margin-bottom: 4px;
+
+      font-size: 2.45rem;
+      color: #FFF;
+}
+
+.banner-subtitulo {
+      font-size: 1.2rem;
+      color: #FFF;
+      margin-bottom: 24px;
+      margin-left: 4px;
+}
+
+.banner-botao {
+      width: 220px;
+      font-size: 1.075rem;
+      padding: 8px;
+
+      border-radius: 8px;
+      border: none;
+      background-color: #00d9ff;
+      color: #202020;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 250ms ease-out;
+}
+
+.banner-botao:hover {
+      transform: scale(105%);
+      background-color: #88edff;
+}

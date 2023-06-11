@@ -1,0 +1,13 @@
+.otimizacaoContainer {
+      width: 100%;
+      height: 550px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+}
+
+.iconeOtimizado {
+      width: 500px;
+}

@@ -1,0 +1,43 @@
+.orcamentoTextos {
+      width: 40%;
+      height: 100%;
+      padding: 120px 16px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      border: none;
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+      background-color: #0D59FF;
+}
+
+.orcamentoTitulo {
+      margin-bottom: 6px;
+
+      font-family: "Roboto", sans-serif;
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #F7F7F7;
+}
+
+.orcamentoSubtitulo {
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.15rem;
+      font-weight: 400;
+      color: #F7F7F7;
+}
+
+.orcamentoSubtitulo span {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #ffae36;
+}
+
+.iconePromocao {
+      margin-top: 40px;
+      width: 77%;
+}

@@ -1,0 +1,19 @@
+.textosContainer {
+      width: 550px;
+      padding: 32px;
+      margin-bottom: 40px;
+}
+
+.textos-titulo {
+      margin-bottom: 6px;
+
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.450rem;
+      color: #202020;
+}
+
+.textos-subtitulo {
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.95rem;
+      color: #202020;
+}

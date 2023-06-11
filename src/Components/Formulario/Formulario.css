@@ -1,0 +1,79 @@
+.formulario {
+      width: 60%;
+      height: 100%;
+      padding: 112px 16px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 36px;
+
+      border: none;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+}
+
+
+.formTitulo {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.75rem;
+      color: #202020;
+}
+
+.estiloInput {
+      width: 70%;
+      height: 40px;
+      padding: 8px 24px;
+
+      border: 1px solid #0D59FF;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px #202020;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+      transition: all 150ms ease-in-out;
+}
+
+.estiloInput:hover {
+      border: 2px solid #0D59FF;
+      box-shadow: 2px 6px 12px #202020;
+}
+
+.estiloTextArea {
+      width: 70%;
+      height: 100px;
+      padding: 8px 24px;
+
+      border: 1px solid #0D59FF;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px #202020;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+      transition: all 150ms ease-in-out;
+}
+
+.estiloTextArea:hover {
+      border: 2px solid #0D59FF;
+      box-shadow: 2px 6px 12px #202020;
+}
+
+.formBotao {
+      width: 200px;
+      height: 40px;
+
+      border: none;
+      border-radius: 12px;
+      background-color: #0D59FF;
+      box-shadow: 0px 2px 6px #202020;
+      color: #f7f7f7;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 180ms ease-in-out;
+}
+
+.formBotao:hover {
+      box-shadow: 0px 4px 9px #202020;
+}

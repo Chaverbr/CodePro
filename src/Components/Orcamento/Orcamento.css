@@ -1,0 +1,16 @@
+.orcamentoContainer {
+      width: 80%;
+      height: 700px;
+      margin: 32px auto 64px auto;
+      
+      display: flex;
+
+      border: 1px solid #202020;
+      border-radius: 12px;
+      box-shadow: 2px 4px 16px #202020;
+}
+
+/* Azul Contraste: #0D59FF */
+
+/* Azul Botão: #00d9ff */
+
