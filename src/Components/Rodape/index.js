@@ -7,13 +7,17 @@ const Rodape = () => {
       return (
             <footer className='rodapeContainer'>
 
+                  <div className='contatos-titulo'>
+                        <h1>
+                              Contatos
+                        </h1>
+                  </div>
+
                   <div className='rodape-contatos'>
 
-                        <div className='contatos-titulo'>
-                              Contatos
-                        </div>
-
                         <div className='contatos'>
+
+                              <h3>Telefone</h3>
 
                               <ul>
                                     <li>
@@ -29,13 +33,16 @@ const Rodape = () => {
                         </div>
 
                         <div className='redeSocial'>
+
+                              <h3>Email</h3>
+
                               <ul>
 
                                     <li>
                                           <AiOutlineMail className='icon' />
                                           codepro@codepro.website
                                     </li>
-                                    
+
                               </ul>
                         </div>
 

@@ -16,10 +16,6 @@ const Cabecalho = () => {
                         <li className='cabecalho-nav--item'>
                               Orçamento
                         </li>
-
-                        <li className='cabecalho-nav--item'>
-                              Contatos
-                        </li>
                   </ul>
 
             </header>
