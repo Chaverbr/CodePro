@@ -20,10 +20,10 @@
       gap: 32px;
       list-style: none;
       font-size: 1.2rem;
-      font-weight: 300;
+      font-weight: 400;
 }
 
-.cabecalho-nav--item:hover {
-      cursor: pointer;
-      text-decoration: underline;
+.listLink {
+      color: #000;
+      text-decoration: none;
 }

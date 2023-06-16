@@ -21,6 +21,7 @@
 
       background-color: rgba(0, 0, 0, 0.220);
       font-family: "Roboto", sans-serif;
+      text-shadow: 1px 1px 2px #000;
 }
 
 .banner-titulo {
@@ -35,23 +36,4 @@
       color: #FFF;
       margin-bottom: 24px;
       margin-left: 4px;
-}
-
-.banner-botao {
-      width: 220px;
-      font-size: 1.075rem;
-      padding: 8px;
-
-      border-radius: 8px;
-      border: none;
-      background-color: #00d9ff;
-      color: #202020;
-      cursor: pointer;
-      font-weight: 600;
-      transition: all 250ms ease-out;
-}
-
-.banner-botao:hover {
-      transform: scale(101%);
-      background-color: #88edff;
 }

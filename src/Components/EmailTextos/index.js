@@ -1,16 +1,16 @@
 import React from 'react';
-import "./OrcamentoTextos.css";
+import "./EmailTextos.css";
 import iconePromocao from "../../img/iconePromocao.png";
 
 
-const OrcamentoTextos = () => {
+const EmailTextos = () => {
       return (
-            <div className='orcamentoTextos'>
-                  <h2 className='orcamentoTitulo'>
+            <div className='emailTextos'>
+                  <h2 className='emailTitulo'>
                         Não perca Tempo!
                   </h2>
 
-                  <h3 className='orcamentoSubtitulo'>
+                  <h3 className='emailSubtitulo'>
                         Entre em contato conosco e garanta <span>15%</span> de <span>Desconto</span> no seu <span>Primeiro Orçamento</span>.
                   </h3>
 
@@ -23,4 +23,4 @@ const OrcamentoTextos = () => {
       )
 }
 
-export default OrcamentoTextos;
+export default EmailTextos;

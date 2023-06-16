@@ -1,4 +1,4 @@
-.orcamentoTextos {
+.emailTextos {
       width: 40%;
       height: 100%;
       padding: 120px 16px;
@@ -13,7 +13,7 @@
       background-color: #0D59FF;
 }
 
-.orcamentoTitulo {
+.emailTitulo {
       margin-bottom: 6px;
 
       font-family: "Roboto", sans-serif;
@@ -22,7 +22,7 @@
       color: #F7F7F7;
 }
 
-.orcamentoSubtitulo {
+.emailSubtitulo {
       text-align: center;
       font-family: "Open Sans", sans-serif;
       font-size: 1.15rem;
@@ -30,7 +30,7 @@
       color: #F7F7F7;
 }
 
-.orcamentoSubtitulo span {
+.emailSubtitulo span {
       font-family: "Roboto", sans-serif;
       font-size: 1.25rem;
       font-weight: 600;

@@ -1,28 +1,31 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import Cabecalho from './Components/Cabecalho';
-import Banner from "./Components/Banner";
-import Design from './Components/Design';
-import Otimizacao from "./Components/Otimizacao";
-import Experiencia from './Components/Experiencia';
-import Orcamento from './Components/Orcamento';
 import Rodape from "./Components/Rodape";
+import Inicio from './Pages/Inicio';
+import PaginaOrcamento from "./Pages/PaginaOrcamento";
 
 function App() {
   return (
     <>
-      <Cabecalho />
 
-      <main>
+      <BrowserRouter>
 
-        <Banner />
-        <Design />
-        <Otimizacao />
-        <Experiencia />
-        <Orcamento />
+        <Cabecalho />
 
-      </main>
+        <Routes>
 
-      <Rodape />
+          <Route path='/' element={<Inicio />} />
+          <Route path='/orcamento' element={<PaginaOrcamento />} />
+
+        </Routes>
+
+        <Rodape />
+
+      </BrowserRouter>
+
+
     </>
   );
 }
