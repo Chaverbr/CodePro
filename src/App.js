@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Cabecalho from './Components/Cabecalho';
 import Rodape from "./Components/Rodape";
+
 import Inicio from './Pages/Inicio';
 import PaginaOrcamento from "./Pages/PaginaOrcamento";
 
@@ -20,8 +21,6 @@ function App() {
           <Route path='/orcamento' element={<PaginaOrcamento />} />
 
         </Routes>
-
-        <Rodape />
 
       </BrowserRouter>
 

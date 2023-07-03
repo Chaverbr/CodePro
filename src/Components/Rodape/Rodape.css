@@ -1,29 +1,29 @@
 .rodapeContainer {
       width: 100%;
-      height: 400px;
-      margin-top: 160px;
+      height: 280px;
+      padding: 24px 0px 40px 0px;
 
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
+      gap: 16px;
 
-      background-color: #0D59FF;
-      color: #F7F7F7;
-      text-shadow: 2px 2px 4px #202020;
+      background-color: #FFFFFF;
+      color: #000;
 }
 
 .rodape-titulo {
       font-family: "Roboto", sans-serif;
       font-size: 1.25rem;
       font-weight: 400;
+      margin-top: 8px;
 }
 
 
 .rodape-contatos {
       width: 100%;
-      height: 200px;
-      padding-top: 40px;
+      height: 100px;
       margin: 0px auto;
 
       display: flex;
@@ -35,11 +35,11 @@
 }
 
 .rodape-contatos > .contatos, .redeSocial {
-      height: 200px;
+      height: 110px;
 
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 12px;
 }
 
 .contatos, .redeSocial > h3 {
@@ -49,7 +49,7 @@
 
 .contatos-titulo > h1 {
       margin-bottom: 24px;
-
+      height: 30px;
       font-family: "Roboto", sans-serif;
       font-size: 2.2rem;
       font-weight: 400;

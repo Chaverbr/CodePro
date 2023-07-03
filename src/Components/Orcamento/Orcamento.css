@@ -1,0 +1,37 @@
+.orcamento {
+      width: 100%;
+}
+
+.backgroundBanner {
+      width: 100%;
+      height: 1000px;
+
+      background-image: url("../../img/fundoOrcamento.jpg");
+      background-repeat: no-repeat;
+      background-position: center right;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+.orcamentoBanner {
+      width: 100%;
+      height: 100%;
+      padding: 64px 0px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 160px;
+
+      background-color: rgba(0, 0, 0, 0.55);
+}
+
+.orcamentoBanner div{
+      color: #F7F7F7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
